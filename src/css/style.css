@@ -1,0 +1,116 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 60px;
+}
+
+.logo .logo-marca img{
+    width: 264px;
+    height: 70px;
+    transition: 0.3s;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .imagem-principal{
+    margin-left: 60px;
+}
+
+.container .descricao{
+    margin-right: 60px;
+    padding-left: 90px;
+}
+
+.container .descricao h2{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container .descricao p{
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.container .descricao .registro{
+    background-color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 5px 5px 20px 1px #2e2b2b;
+}
+
+.container .descricao .registro:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 125px;
+}
+
+.rodape a{
+    color: #fff;
+    padding: 0 20px;
+    width: 40px;
+    margin-right: 60px ;
+    transition: 0.3s;
+}
+
+.rodape a:hover{
+    color: hsl(300, 69%, 71%);
+}
+
+.rodape .fa-brands{
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.rodape .fa-brands:hover{
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.rodape .fa-facebook-f{
+    padding: 7px 20px 0 10px;
+}
+
+.rodape .fa-twitter{
+    padding: 7px 10px 0 8px;
+}
+
+.rodape .fa-instagram{
+    padding: 7px 10px 0 8px;
+}

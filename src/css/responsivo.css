@@ -1,0 +1,138 @@
+@media(max-width: 1440px){
+    .container .imagem-principal{
+        width: 600px;
+    }
+
+    .container .descricao h2{
+        font-size: 40px;
+    }
+
+    .container .descricao p{
+        font-size: 18px;
+    }
+
+    .rodape{
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 1024px){
+    .container .imagem-principal{
+        width: 500px;
+    }
+
+    .container .descricao h2{
+        font-size: 30px;
+    }
+
+    .container .descricao p{
+        font-size: 14px;
+    }
+
+    .rodape{
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 992px){
+    .container .imagem-principal{
+        width: 500px;
+    }
+
+    .container .descricao h2{
+        font-size: 30px;
+    }
+
+    .container .descricao p{
+        font-size: 14px;
+    }
+
+    .rodape{
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 768px){
+    body{
+        background-image: url(../images/bg-mobile.png);
+    }
+
+    .logo{
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .imagem-principal{
+        width: 500px;
+    }
+
+    .container .descricao{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .descricao h2{
+        font-size: 30px;
+    }
+
+    .container .descricao p{
+        font-size: 14px;
+    }
+
+    .container .descricao .registro{
+        margin-left: 150px;
+    }
+
+    .rodape{
+        margin-top: 120px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 576px){
+    body{
+        background-image: url(../images/bg-mobile.png);
+    }
+
+    .logo{
+        justify-content: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .imagem-principal{
+        width: 300px;
+    }
+
+    .container .descricao{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .descricao h2{
+        font-size: 25px;
+    }
+
+    .container .descricao p{
+        font-size: 13px;
+    }
+
+    .container .descricao .registro{
+        margin-left: 0;
+    }
+
+    .rodape{
+        margin-top: 50px;
+        justify-content: center;
+    }
+}
